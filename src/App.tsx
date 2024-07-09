@@ -88,7 +88,7 @@ export default function App() {
             <div
                 className={
                     showSearch === "show"
-                        ? "flex justify-center items-center gap-2 absolute w-fit left-[50vw] -translate-x-[50%] top-[50vh] h-fit"
+                        ? "flex justify-center items-center gap-2 absolute w-screen h-full bg-opacity-50 bg-black"
                         : "hidden"
                 }
             >
